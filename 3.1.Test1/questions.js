@@ -3,7 +3,7 @@ let tailleString = (texte) => {
     return texte.length;
 }
 let remplaceECar = (texte) => {
-    let a = texte.indexOf("e")
+    let a = texte.indexOf("e");
     let text =  texte.substr(" ", a) + " " + texte.substr(a + 1 , texte.length);
     return text;
 }
